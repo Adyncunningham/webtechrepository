@@ -9,7 +9,21 @@ html {
     box-sizing: inherit;
 }
 
+/* --------------Responsive Images ---------------- */
+
+img{
+    max-width:100%;
+}
+
 /* --------------Utility Classes ---------------- */
+
+.container {
+    max-width: 960px;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+
 
 /* Skip link utility: hidden until focused */
 .visually-hidden {
@@ -35,7 +49,7 @@ html {
     position: absolute;
     left: 10px;
     top: 10px;
-    background: #ffffff;
+    background: #E1E1E1;
     color: #172635;
     z-index: 9999;
     border-radius: 6px;
@@ -44,12 +58,13 @@ html {
 /*-----Global styles-----*/
 body {
     font-family: "Overpass Mono", monospace;
-    margin:0;
+    margin: 0;
+    background-color: #E1E1E1;
 }
 
-header.primary{
-    background-color: #3b6b8b;
-    color: #ffffff;
+header.primary {
+    background-color: #A160EB;
+    color: #E1E1E1;
     text-align: center;
     text-shadow: 2px 2px #000000;
     /* long form
@@ -62,39 +77,88 @@ header.primary{
     padding:40px;*/
     /* t/r/b/l 
     padding:40px 40px 40px 40px; */
-    /*t/b | l/r*/ 
-    padding:30px 20px;
+    /*t/b | l/r*/
+    padding: 30px 20px;
 }
-header.primary a{
-    color: #ffffff;
-    text-decoration:none;
+
+header.primary a {
+    color: #E1E1E1;
+    text-decoration: none;
 }
-header.primary h1{
-    font-size:3.5rem;
-    margin:0;
+
+header.primary h1 {
+    font-size: 3.5rem;
+    margin: 0;
 }
-header.primary p.subtitle{
-    font-size:1.3rem;
-    margin:0;
-    letter-spacing:.3px;
+
+header.primary p.subtitle {
+    font-size: 1.3rem;
+    margin: 0;
+    letter-spacing: .3px;
 }
-nav.primary ul{
-    padding:0;
+
+nav.primary ul {
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-nav.primary ul li a{
-    background-color: rgba(0,0,0,.5);
-    padding:5px 7.5px;
-    border: 2px solid azure;
+nav.primary ul li a {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 7.5px;
+    border: 2px solid #E1E1E1;
     border-radius: 6px;
 }
-nav.primary ul li a:hover{
-    background-color: rgba(255,255,255,.3);
+
+nav.primary ul li a:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
 
-nav.primary ul li{
+nav.primary ul li {
     list-style-type: none;
+}
+
+#content h2 {
+    color: #816F96;
+    border-bottom: 5px ridge #42BBD6;
+}
+
+body p {
+    line-height: 2;
+}
+
+#blog{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+figure{
+    margin: 0;
+}
+
+
+
+
+/*Media Qeries*/
+@media screen and (max-width:600px) {
+
+    .container {
+        max-width: 960px;
+        width: 90vw;
+        margin: 20px auto;
+    }
+
+    nav.primary ul {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    nav.primary a {
+        display: block;
+
+    }
 }
