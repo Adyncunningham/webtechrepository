@@ -11,8 +11,8 @@ html {
 
 /* --------------Responsive Images ---------------- */
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
 }
 
 /* --------------Utility Classes ---------------- */
@@ -63,7 +63,7 @@ body {
 }
 
 header.primary {
-    background-color: #A160EB;
+    background-color: #816F96;
     color: #E1E1E1;
     text-align: center;
     text-shadow: 2px 2px #000000;
@@ -102,6 +102,7 @@ nav.primary ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 30px;
 }
 
 nav.primary ul li a {
@@ -128,19 +129,82 @@ body p {
     line-height: 2;
 }
 
-#blog{
-    display:flex;
+#blog {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
+
 }
 
-figure{
+figure {
     margin: 0;
 }
 
 
+#blog article.post {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    padding: 15px;
+    font-size: .8rem;
+    flex: 1;
+}
 
+h2#recent-posts {
+    flex: 0 0 100%;
+
+}
+
+/* article.post time{
+    font-size: .7rem;
+    text-transform: uppercase;
+} */
+
+article.post figcaption {
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+
+article.post a {
+    color: #42BBD6;
+}
+
+aside[aria-label="sidebar"] {
+    background-color: #816F96;
+    padding: 40px 0;
+    color: #E1E1E1;
+}
+
+aside .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+aside .widget {
+    flex: 1;
+}
+
+aside .container a:last-child {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    color: #E1E1E1;
+}
+
+aside footer {
+    display: none;
+}
+
+footer.primary {
+    padding: 5px;
+    background-color: #172635;
+    color: #E1E1E1;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+
+}
 
 /*Media Qeries*/
 @media screen and (max-width:600px) {
