@@ -186,7 +186,7 @@ figure {
 #practice ol {
     padding-left: 30px;
     margin: 20px 0;
-    padding: 20px 0 10px 0;
+    padding: 10px 0;
     border-top: 3px solid #816F96;
     border-bottom: 3px solid #816F96;
 }
@@ -226,7 +226,7 @@ figure {
     border-top: 3px solid #816F96;
     border-bottom: 3px solid #816F96;
     border-radius: 0;
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 20px 0;
 }
 
