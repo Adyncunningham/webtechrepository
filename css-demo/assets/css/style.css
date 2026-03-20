@@ -23,7 +23,26 @@ img {
     margin: 20px auto;
 }
 
+.img-right{
+    float:right;
+    margin: 10px 0 10px 20px;
+    border: 5px solid #816F96;
+    max-width: 33%;
+}
 
+.img-left{
+    float:left;
+    margin: 10px 0 10px 20px;
+    border: 5px solid #816F96;
+    max-width: 33%;
+}
+
+.img-center{
+    display:block;
+    margin: 20px auto;
+    border: 5px solid #816F96;
+    max-width: 33%;
+}
 
 /* Skip link utility: hidden until focused */
 .visually-hidden {
@@ -120,7 +139,7 @@ nav.primary ul li {
     list-style-type: none;
 }
 
-#content h2 {
+#content h2, #practice h2{
     color: #816F96;
     border-bottom: 5px ridge #42BBD6;
 }
@@ -135,7 +154,10 @@ body p {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-
+    border-top: 1px solid #172635;
+    border-bottom: 1px solid #172635;
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 figure {
@@ -150,9 +172,44 @@ figure {
     flex: 1;
 }
 
-h2#recent-posts {
+#recent-posts h2{
     flex: 0 0 100%;
+}
 
+#practice h3{
+    padding: 10px 0 10px 10px;
+    border-left: 6px solid #A160EB;
+}
+
+table{
+    width: 100%;
+    border: 3px solid #172635;
+    border-collapse: collapse;
+}
+
+caption{
+    font-weight: bold;
+    margin: 10px;
+}
+
+td{
+    border: 3px solid #172635;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(193, 171, 235,.3);
+}
+
+tr:hover{
+    background-color: rgba(193, 171, 235,.5);
+
+}
+
+th{
+    background-color: #816F96;
+    border: 3px solid #172635;
+    padding: 10px;
 }
 
 /* article.post time{
@@ -165,8 +222,12 @@ article.post figcaption {
     text-transform: uppercase;
 }
 
-article.post a {
+article.post a,#practice a{
     color: #42BBD6;
+}
+
+article.post a:hover, #practice a:hover{
+    text-decoration: none;
 }
 
 aside[aria-label="sidebar"] {
