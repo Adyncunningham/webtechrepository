@@ -226,7 +226,29 @@ figure {
     font-style: italic;
 }
 
+#practice h4 {
+    margin-top: 20px;
+    padding: 10px;
+    color: #172635;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
 
+#practice blockquote {
+    background-color: rgba(193, 171, 235, 0.2);
+    border-left: 6px solid #816F96;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+#practice blockquote cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
 
 
 
