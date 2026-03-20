@@ -139,8 +139,7 @@ nav.primary ul li {
     list-style-type: none;
 }
 
-#content h2,
-#practice h2 {
+#content h2,#practice h2 {
     color: #816F96;
     border-bottom: 5px ridge #42BBD6;
 }
@@ -149,28 +148,34 @@ body p {
     line-height: 2;
 }
 
+
+
 #blog {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
     flex-wrap: wrap;
-    border-top: 1px solid #172635;
-    border-bottom: 1px solid #172635;
+    gap: 20px;
+    border-top: 3px solid #816F96;
+    border-bottom: 3px solid #816F96;
     padding-bottom: 20px;
     margin-top: 20px;
+}
+
+#recent-posts {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
 }
 
 figure {
     margin: 0;
 }
 
-
 #blog article.post {
+    flex: 1 1 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
     padding: 15px;
     font-size: .8rem;
-    flex: 1;
+    min-width: 250px;
 }
 
 #recent-posts h2 {
@@ -222,6 +227,7 @@ figure {
 #practice ul ul li {
     margin-bottom: 3px;
 }
+
 #practice dl {
     border-top: 3px solid #816F96;
     border-bottom: 3px solid #816F96;
@@ -247,6 +253,7 @@ figure {
     padding: 10px;
     color: #172635;
     border-radius: 6px;
+
     letter-spacing: 1px;
 }
 
@@ -256,6 +263,7 @@ figure {
     padding: 15px 20px;
     margin: 20px 0;
     font-style: italic;
+    letter-spacing: 1px;
 }
 
 #practice blockquote cite {
