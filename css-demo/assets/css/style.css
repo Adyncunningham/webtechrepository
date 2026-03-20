@@ -252,8 +252,7 @@ figure {
     margin-top: 20px;
     padding: 10px;
     color: #172635;
-    border-radius: 6px;
-
+    border-left: 6px solid #816F96;
     letter-spacing: 1px;
 }
 
