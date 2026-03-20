@@ -195,6 +195,11 @@ figure {
     border-left: 5px solid #A160EB;
 }
 
+#practice ol li::marker {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 #practice ul {
     list-style-type: circle;
     padding-left: 25px;
