@@ -139,7 +139,8 @@ nav.primary ul li {
     list-style-type: none;
 }
 
-#content h2,#practice h2 {
+#content h2,
+#practice h2 {
     color: #816F96;
     border-bottom: 5px ridge #42BBD6;
 }
@@ -178,10 +179,6 @@ figure {
     min-width: 250px;
 }
 
-#recent-posts h2 {
-    flex: 0 0 100%;
-}
-
 #practice h3 {
     padding: 10px 0 10px 10px;
     border-left: 6px solid #A160EB;
@@ -189,7 +186,7 @@ figure {
 
 
 #practice ol {
-    padding: 10px 0 10px 30px; /* top | right | bottom | left */
+    padding: 10px 0 10px 30px;
     margin: 20px 0;
     border-top: 3px solid #816F96;
     border-bottom: 3px solid #816F96;
@@ -272,10 +269,6 @@ figure {
     font-weight: bold;
 }
 
-
-
-
-
 table {
     width: 100%;
     border: 3px solid #172635;
@@ -298,7 +291,6 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: rgba(193, 171, 235, .5);
-
 }
 
 th {
