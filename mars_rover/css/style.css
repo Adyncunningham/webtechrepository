@@ -194,6 +194,16 @@ section#content tr:hover{
   background:#8EA6B8;
 }
 
+.post {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #ccc; /* divider line */
+}
+
+.post:last-of-type {
+  border-bottom: none; /* removes divider after last section */
+}
+
 /* ------------- Articles --------------- */
 
 section#articles {
