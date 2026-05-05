@@ -85,7 +85,7 @@ header.primary {
 
 header.primary::before {
   content: "";
-  background-image: url("https://assets.codepen.io/7248/mars.jpg");
+  background-image: url(/mars-rover-final/img/PIA24311~medium.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
