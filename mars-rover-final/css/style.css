@@ -413,11 +413,17 @@ footer#colophon {
 }
 
 #colophon h6 a:link,
-#colophon h6 a:visited,
+#colophon h6 a:visited {
+  color: #fff;
+}
+
 #colophon p {
   color: #fff;
-  max-width: 900px;
   text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
 }
 
 
