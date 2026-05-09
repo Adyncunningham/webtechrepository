@@ -4,11 +4,21 @@
 <head>
   <title>NASA Mars Rovers</title>
   <meta charset="UTF-8">
+
   <meta name="robots" content="noindex">
+
   <meta name="author" content="Adyn Cunningham">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
+
   <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -49,63 +59,75 @@
   <section id="articles">
     <div class="container">
       <h2>Rovers</h2>
-      <article class="post">
-        <header>
-          <figure>
-            <img src="https://assets.codepen.io/7248/curiosity.jpg"
-              alt="A stunning selfie of the Curiosity rover with 'Mont Mercou' in the background, showcasing the Martian terrain.">
-            <figcaption>Curiosity</figcaption>
-          </figure>
-          <h2> <a href="#" rel="bookmark" title="link to this post">Curiosity</a> </h2>
-        </header>
-        <ul>
-          <li>Conducts detailed analysis of Martian rocks and soil to assess past habitability</li>
 
-          <li>Discovered evidence of ancient freshwater environments in Gale Crater</li>
+      <div class="fade">
 
-          <li>Monitors radiation levels to help prepare for future human missions</li>
+        <!-- Curiosity -->
+        <article class="post">
+          <header>
+            <figure>
+              <img src="https://assets.codepen.io/7248/curiosity.jpg"
+                alt="A stunning selfie of the Curiosity rover with Mont Mercou in the background.">
+              <figcaption>Curiosity</figcaption>
+            </figure>
 
-          <li>Uses advanced onboard lab to detect organic compounds and chemical signatures</li>
+            <h2>
+              <a href="#" rel="bookmark">Curiosity</a>
+            </h2>
+          </header>
 
-          <li>Continues long-term climate and radiation monitoring on Mars</li>
-        </ul>
-      </article>
-      <article class="post">
-        <header>
-          <figure>
-            <img src="https://assets.codepen.io/7248/opportunity.jpg" alt="Opportunity Rover">
-            <figcaption>Opportunity</figcaption>
-          </figure>
-          <h2> <a href="#" rel="bookmark" title="link to this post">Opportunity</a> </h2>
-        </header>
-        <ul>
-          <li>Traveled over 28 miles across the Martian surface, far exceeding mission expectations</li>
+          <ul>
+            <li>Conducts detailed analysis of Martian rocks and soil to assess past habitability</li>
+            <li>Discovered evidence of ancient freshwater environments in Gale Crater</li>
+            <li>Monitors radiation levels to help prepare for future human missions</li>
+            <li>Uses advanced onboard lab to detect organic compounds and chemical signatures</li>
+            <li>Continues long-term climate and radiation monitoring on Mars</li>
+          </ul>
+        </article>
 
-          <li>Provided strong evidence that liquid water once existed on Mars</li>
+        <!-- Opportunity -->
+        <article class="post">
+          <header>
+            <figure>
+              <img src="https://assets.codepen.io/7248/opportunity.jpg" alt="Opportunity Rover">
+              <figcaption>Opportunity</figcaption>
+            </figure>
 
-          <li>Studied rock layers that revealed past wet environmental conditions</li>
+            <h2>
+              <a href="#" rel="bookmark">Opportunity</a>
+            </h2>
+          </header>
 
-          <li>Operated for nearly 15 years despite a planned 90-day mission</li>
-        </ul>
-      </article>
-      <article class="post">
-        <header>
-          <figure>
-            <img src="https://assets.codepen.io/7248/spirit-rover.jpg" alt="Spirit">
-            <figcaption>Spirit</figcaption>
-          </figure>
-          <h2> <a href="#" rel="bookmark" title="link to this post">Spirit</a> </h2>
-        </header>
-        <ul>
-          <li>Explored Gusev Crater, investigating signs of past volcanic and water activity</li>
+          <ul>
+            <li>Traveled over 28 miles across the Martian surface</li>
+            <li>Provided strong evidence that liquid water once existed on Mars</li>
+            <li>Studied rock layers that revealed past wet environmental conditions</li>
+            <li>Operated for nearly 15 years despite a planned 90-day mission</li>
+          </ul>
+        </article>
 
-          <li>Discovered evidence of ancient hot springs and hydrothermal systems</li>
+        <!-- Spirit -->
+        <article class="post">
+          <header>
+            <figure>
+              <img src="https://assets.codepen.io/7248/spirit-rover.jpg" alt="Spirit Rover">
+              <figcaption>Spirit</figcaption>
+            </figure>
 
-          <li>Collected detailed panoramic images of Martian terrain</li>
+            <h2>
+              <a href="#" rel="bookmark">Spirit</a>
+            </h2>
+          </header>
 
-          <li>Became stuck in soft soil but continued stationary scientific observations</li>
-        </ul>
-      </article>
+          <ul>
+            <li>Explored Gusev Crater, investigating signs of past volcanic activity</li>
+            <li>Discovered evidence of ancient hot springs and hydrothermal systems</li>
+            <li>Collected detailed panoramic images of Martian terrain</li>
+            <li>Became stuck in soft soil but continued stationary scientific observations</li>
+          </ul>
+        </article>
+
+      </div>
     </div>
   </section>
   <section id="hero" class="container">
@@ -163,6 +185,11 @@
     <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing
       this work.</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="../js/script.js"></script>
 </body>
 
 </html>
