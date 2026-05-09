@@ -28,41 +28,61 @@
 
   <main>
 
-    <section id="contact-info">
-      <h2>Get in Touch</h2>
-      <p>If you have questions about Mars rover missions or this project, feel free to reach out!</p>
-    </section>
-
     <section id="contact-form">
-      <h2>Send a Message</h2>
 
-      <form action="#" method="post">
+      <div id="wufoo-m1nuphvs02w5ef0">
+        Fill out my
+        <a href="https://acunningham.wufoo.com/forms/m1nuphvs02w5ef0">
+          online form
+        </a>.
+      </div>
 
-        <div class="form-group">
-          <label for="name">Full Name:</label><br>
-          <input type="text" id="name" name="name" required>
-        </div>
+      <script type="text/javascript">
+        var m1nuphvs02w5ef0;
 
-        <div class="form-group">
-          <label for="email">Email Address:</label><br>
-          <input type="email" id="email" name="email" required>
-        </div>
+        (function (d, t) {
 
-        <div class="form-group">
-          <label for="subject">Subject:</label><br>
-          <input type="text" id="subject" name="subject">
-        </div>
+          var s = d.createElement(t),
+            options = {
+              'userName': 'acunningham',
+              'formHash': 'm1nuphvs02w5ef0',
+              'autoResize': true,
+              'height': '577',
+              'async': true,
+              'host': 'wufoo.com',
+              'header': 'show',
+              'ssl': true
+            };
 
-        <div class="form-group">
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
+          s.src = ('https:' == d.location.protocol
+            ? 'https://'
+            : 'http://') + 'secure.wufoo.com/scripts/embed/form.js';
 
-        <div class="form-group">
-          <button type="submit">Send Message</button>
-        </div>
+          s.onload = s.onreadystatechange = function () {
 
-      </form>
+            var rs = this.readyState;
+
+            if (rs)
+              if (rs != 'complete')
+                if (rs != 'loaded')
+                  return;
+
+            try {
+              m1nuphvs02w5ef0 = new WufooForm();
+              m1nuphvs02w5ef0.initialize(options);
+              m1nuphvs02w5ef0.display();
+            } catch (e) { }
+
+          };
+
+          var scr = d.getElementsByTagName(t)[0],
+            par = scr.parentNode;
+
+          par.insertBefore(s, scr);
+
+        })(document, 'script');
+      </script>
+
     </section>
 
   </main>
@@ -71,9 +91,7 @@
     <div class="container">
 
       <article class="widget">
-        <h3>Contact Details</h3>
-        <p>Email: alcunningha2@ualr.edu</p>
-        <p>Phone: (123) 456-7890</p>
+        <p></p>
       </article>
 
     </div>
