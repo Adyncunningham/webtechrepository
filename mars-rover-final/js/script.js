@@ -7,7 +7,7 @@ $(document).ready(function () {
         fade: true,
         cssEase: 'linear',
         autoplay: true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 8000,
         slidesToShow: 1,
         slidesToScroll: 1
     });
