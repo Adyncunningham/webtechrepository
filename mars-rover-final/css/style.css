@@ -402,6 +402,9 @@ footer#colophon {
   text-align: center;
   font-size: 0.9rem;
   text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 #colophon h3 a:link,
