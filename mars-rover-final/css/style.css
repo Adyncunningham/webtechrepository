@@ -81,7 +81,7 @@ header.primary {
 
 header.primary::before {
   content: "";
-  background-image: url(/mars-rover-final/img/PIA24311~medium.jpg);
+  background-image: url(../img/PIA24311~medium.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
